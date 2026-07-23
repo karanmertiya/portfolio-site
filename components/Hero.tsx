@@ -21,14 +21,13 @@ export default function Hero() {
                     transition={{ duration: 0.5 }}
                 >
                     <h1 className="mb-6 bg-clip-text text-transparent bg-gradient-to-r from-blue-600 to-purple-600">
-                        Building Intelligent Systems
+                        Karan Singh Mertiya
                         <br />
-                        <span className="text-gray-900">for the Future</span>
+                        <span className="text-gray-900">AI Engineer & Researcher</span>
                     </h1>
 
                     <p className="mx-auto mb-8 max-w-2xl text-xl text-gray-600">
-                        Full-stack developer specializing in AI/ML integration, financial analytics,
-                        and scalable web architecture. Turning complex data into actionable insights.
+                        Undergraduate conducting independent research in efficient LLM inference, quantisation, and hardware-aware machine learning.
                     </p>
 
                     <div className="flex flex-col sm:flex-row items-center justify-center gap-4 mb-12">
@@ -44,17 +43,17 @@ export default function Hero() {
                     </div>
 
                     <div className="flex items-center justify-center gap-6 text-gray-500 mb-12">
-                        <a href="https://github.com" target="_blank" rel="noopener noreferrer" className="hover:text-gray-900 transition-colors">
+                        <a href="https://github.com/karanmertiya" target="_blank" rel="noopener noreferrer" className="hover:text-gray-900 transition-colors">
                             <Github className="h-6 w-6" />
                         </a>
-                        <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" className="hover:text-blue-700 transition-colors">
+                        <a href="https://www.linkedin.com/in/karan-singh-mertiya/" target="_blank" rel="noopener noreferrer" className="hover:text-blue-700 transition-colors">
                             <Linkedin className="h-6 w-6" />
                         </a>
                     </div>
 
                     {/* Tech Badges */}
                     <div className="flex flex-wrap justify-center gap-3 opacity-80">
-                        {['React', 'Next.js', 'TypeScript', 'Python', 'FastAPI', 'PostgreSQL', 'Docker', 'TensorFlow'].map((tech, index) => (
+                        {['Python', 'C++', 'CUDA', 'TypeScript', 'React', 'PyTorch', 'Node.js', 'Verilog'].map((tech, index) => (
                             <motion.span
                                 key={tech}
                                 initial={{ opacity: 0, scale: 0.8 }}

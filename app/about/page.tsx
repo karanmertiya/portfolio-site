@@ -18,17 +18,16 @@ export default function AboutPage() {
                                 <div className="w-full h-full bg-gradient-to-br from-blue-400 to-purple-500" />
                             </div>
                             <div>
-                                <h2 className="text-3xl font-bold text-gray-900 mb-4">Full Stack Developer & AI Enthusiast</h2>
+                                <h2 className="text-3xl font-bold text-gray-900 mb-4">AI Engineer & Hardware-Aware ML Researcher</h2>
                                 <p className="text-gray-600 text-lg leading-relaxed mb-6">
-                                    I&apos;m passionate about building intelligent systems that solve real-world problems.
-                                    With a background in Applied Mathematics and Game Theory, I bring a unique perspective
-                                    to software engineering, combining rigorous analytical thinking with modern web technologies.
+                                    I am an undergraduate conducting independent research in efficient LLM inference, quantisation, and hardware-aware machine learning.
+                                    I am currently seeking an AI or ML Engineering internship focused on efficient foundation models and systems optimisation.
                                 </p>
                                 <div className="flex gap-4">
                                     <button className="btn-primary">
                                         <Download className="w-5 h-5 mr-2" /> Download Resume
                                     </button>
-                                    <a href="mailto:your.email@example.com" className="btn-secondary">
+                                    <a href="mailto:karanmertiya92@gmail.com" className="btn-secondary">
                                         <Mail className="w-5 h-5 mr-2" /> Contact Me
                                     </a>
                                 </div>
@@ -37,30 +36,30 @@ export default function AboutPage() {
 
                         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 border-t border-gray-100 pt-12">
                             <div>
-                                <h3 className="text-xl font-bold text-gray-900 mb-4">Frontend</h3>
+                                <h3 className="text-xl font-bold text-gray-900 mb-4">Programming & Core</h3>
                                 <ul className="space-y-2 text-gray-600">
-                                    <li>React / Next.js</li>
-                                    <li>TypeScript</li>
-                                    <li>Tailwind CSS</li>
-                                    <li>Framer Motion</li>
+                                    <li>Python & C++</li>
+                                    <li>CUDA</li>
+                                    <li>TypeScript & Node.js</li>
+                                    <li>Verilog</li>
                                 </ul>
                             </div>
                             <div>
-                                <h3 className="text-xl font-bold text-gray-900 mb-4">Backend</h3>
+                                <h3 className="text-xl font-bold text-gray-900 mb-4">Machine Learning</h3>
                                 <ul className="space-y-2 text-gray-600">
-                                    <li>Node.js / Express</li>
-                                    <li>Python / FastAPI</li>
-                                    <li>PostgreSQL / Redis</li>
-                                    <li>Docker / Kubernetes</li>
+                                    <li>PyTorch</li>
+                                    <li>Hugging Face Transformers</li>
+                                    <li>Quantisation (INT4, vBFP)</li>
+                                    <li>RAG</li>
                                 </ul>
                             </div>
                             <div>
-                                <h3 className="text-xl font-bold text-gray-900 mb-4">AI / ML</h3>
+                                <h3 className="text-xl font-bold text-gray-900 mb-4">Tools & Frameworks</h3>
                                 <ul className="space-y-2 text-gray-600">
-                                    <li>PyTorch / TensorFlow</li>
-                                    <li>Reinforcement Learning</li>
-                                    <li>NLP / LLMs</li>
-                                    <li>Computer Vision</li>
+                                    <li>React</li>
+                                    <li>Vector Databases</li>
+                                    <li>lm-eval-harness</li>
+                                    <li>Git & MATLAB</li>
                                 </ul>
                             </div>
                         </div>

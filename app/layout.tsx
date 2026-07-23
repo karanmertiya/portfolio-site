@@ -7,16 +7,16 @@ import { Download, Menu, X } from 'lucide-react';
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Portfolio | Full Stack Developer & AI Engineer",
-  description: "Portfolio of a Full Stack Developer specializing in AI, Machine Learning, and Modern Web Technologies.",
-  keywords: ["Full Stack Developer", "AI Engineer", "React", "Next.js", "Python", "Machine Learning", "Portfolio"],
-  authors: [{ name: "Your Name" }],
+  title: "Karan Singh Mertiya | AI Engineer & Full Stack Developer",
+  description: "Portfolio of Karan Singh Mertiya, an undergraduate researcher in efficient LLM inference, quantisation & hardware-aware machine learning.",
+  keywords: ["AI Engineer", "Full Stack Developer", "Machine Learning", "LLM", "Quantisation", "Python", "CUDA", "React", "Karan Singh Mertiya"],
+  authors: [{ name: "Karan Singh Mertiya" }],
   openGraph: {
-    title: "Portfolio | Full Stack Developer & AI Engineer",
-    description: "Building intelligent systems for the future.",
+    title: "Karan Singh Mertiya | AI Engineer & Full Stack Developer",
+    description: "Undergraduate researcher in efficient LLM inference, quantisation & hardware-aware machine learning.",
     type: "website",
     locale: "en_US",
-    siteName: "Developer Portfolio",
+    siteName: "Karan Singh Mertiya Portfolio",
   },
 };
 
@@ -39,7 +39,6 @@ export default function RootLayout({
                 <Link href="/projects" className="text-sm font-medium text-gray-600 hover:text-blue-600 transition-colors">Projects</Link>
                 <Link href="/timeline" className="text-sm font-medium text-gray-600 hover:text-blue-600 transition-colors">Timeline</Link>
                 <Link href="/about" className="text-sm font-medium text-gray-600 hover:text-blue-600 transition-colors">About</Link>
-                <Link href="/blog" className="text-sm font-medium text-gray-600 hover:text-blue-600 transition-colors">Blog</Link>
                 <button className="btn-primary text-sm py-2 px-4">
                   <Download className="w-4 h-4 mr-2" /> Resume
                 </button>
